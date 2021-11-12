@@ -1,0 +1,212 @@
+/*
+ * This file is part of OpenGFX base graphics for OpenTTD.
+ * OpenGFX is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+ * OpenGFX is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
+//################ FOUNDATIONS
+template foundations_template() {
+	[   0, 20,  64,  40, -31,  -9, NOCROP]
+	[  80, 20,  64,  32, -31,  -9, NOCROP]
+	[ 160, 20,  64,  32, -31,  -9, NOCROP]
+	[ 240, 20,  64,  40, -31,  -9, NOCROP]
+	[ 320, 20,  64,  40, -31,  -9, NOCROP]
+	[ 400, 20,  64,  32, -31,  -9, NOCROP]
+	[ 480, 20,  64,  32, -31,  -9, NOCROP]
+	[   0, 70,  64,  40, -31,  -9, NOCROP]
+	[  80, 70,  64,  40, -31,  -9, NOCROP]
+	[ 160, 70,  64,  32, -31,  -9, NOCROP]
+	[ 240, 70,  64,  32, -31,  -9, NOCROP]
+	[ 320, 70,  64,  40, -31,  -9, NOCROP]
+	[ 400, 70,  64,  40, -31,  -9, NOCROP]
+	[ 480, 70,  64,  32, -31,  -9, NOCROP]
+}
+
+template sloped_foundations_template(file) {
+		[   0, 20,  64,  40, -31,  -9, NOCROP, file]
+		[  80, 20,  64,  40, -31,  -9, NOCROP, file]
+		[ 160, 20,  64,  32, -31,  -9, NOCROP, file]
+		[ 240, 20,  64,  32, -31,  -9, NOCROP, file]
+		[ 320, 20,  64,  40, -31,  -9, NOCROP, file]
+		[ 400, 20,  64,  40, -31,  -9, NOCROP, file]
+		[ 480, 20,  64,  40, -31,  -9, NOCROP, file]
+		[ 560, 20,  64,  40, -31,  -9, NOCROP, file]
+		[ 640, 20,  64,  40, -31,  -9, NOCROP, file]
+		[ 720, 20,  64,  32, -31,  -9, NOCROP, file]
+		[   0, 70,  64,  32, -31,  -9, NOCROP, file]
+		[  80, 70,  64,  40, -31,  -9, NOCROP, file]
+		[ 160, 70,  64,  40, -31,  -9, NOCROP, file]
+		[ 240, 70,  64,  32, -31,  -9, NOCROP, file]
+		[ 320, 70,  64,  32, -31,  -9, NOCROP, file]
+		[ 400, 70,  64,  40, -31,  -9, NOCROP, file]
+		[ 480, 70,  64,  40, -31,  -9, NOCROP, file]
+		[ 560, 70,  64,  32, -31,  -9, NOCROP, file]
+		[ 640, 70,  64,  32, -31,  -9, NOCROP, file]
+		[ 720, 70,  64,  40, -31,  -9, NOCROP, file]
+		[   0, 120,  64,  40, -31,  -9, NOCROP, file]
+		[  80, 120,  64,  32, -31,  -9, NOCROP, file]
+		[ 160, 120,  64,  40, -31,  -9, NOCROP, file]
+		[ 240, 120,  64,  40, -31,  -9, NOCROP, file]
+		[ 320, 120,  64,  32, -31,  -9, NOCROP, file]
+		[ 400, 120,  64,  32, -31,  -9, NOCROP, file]
+		[ 480, 120,  64,  40, -31,  -9, NOCROP, file]
+		[ 560, 120,  64,  40, -31,  -9, NOCROP, file]
+		[ 640, 120,  64,  40, -31,  -9, NOCROP, file]
+		[ 720, 120,  64,  40, -31,  -9, NOCROP, file]
+		[   0, 170,  64,  40, -31,  -9, NOCROP, file]
+		[  80, 170,  64,  32, -31,  -9, NOCROP, file]
+		[ 160, 170,  64,  32, -31,  -9, NOCROP, file]
+		[ 240, 170,  64,  40, -31,  -9, NOCROP, file]
+		[ 320, 170,  64,  40, -31,  -9, NOCROP, file]
+		[ 400, 170,  64,  32, -31,  -9, NOCROP, file]
+		[ 480, 170,  64,  32, -31,  -9, NOCROP, file]
+		[ 560, 170,  64,  40, -31,  -9, NOCROP, file]
+		[ 640, 170,  64,  40, -31,  -9, NOCROP, file]
+		[ 720, 170,  64,  32, -31,  -9, NOCROP, file]
+		[   0, 220,  64,  32, -31,  -9, NOCROP, file]
+		[  80, 220,  64,  40, -31,  -9, NOCROP, file]
+		[ 160, 220,  64,  40, -31,  -9, NOCROP, file]
+		[ 240, 220,  64,  32, -31,  -9, NOCROP, file]
+		[ 320, 220,  64,  40, -31,  -9, NOCROP, file]
+		[ 400, 220,  64,  40, -31,  -9, NOCROP, file]
+		[ 480, 220,  64,  32, -31,  -9, NOCROP, file]
+		[ 560, 220,  64,  32, -31,  -9, NOCROP, file]
+		[ 640, 220,  64,  40, -31,  -9, NOCROP, file]
+		[ 720, 220,  64,  40, -31,  -9, NOCROP, file]
+		[   0, 270,  64,  40, -31,  -9, NOCROP, file]
+		[  80, 270,  64,  40, -31,  -9, NOCROP, file]
+		[ 160, 270,  64,  40, -31,  -9, NOCROP, file]
+		[ 240, 270,  64,  32, -31,  -9, NOCROP, file]
+		[ 320, 270,  64,  32, -31,  -9, NOCROP, file]
+		[ 400, 270,  64,  40, -31,  -9, NOCROP, file]
+		[ 480, 270,  64,  40, -31,  -9, NOCROP, file]
+		[ 560, 270,  64,  32, -31,  -9, NOCROP, file]
+		[ 640, 270,  64,  32, -31,  -9, NOCROP, file]
+		[ 720, 270,  64,  40, -31,  -9, NOCROP, file]
+		[   0, 320,  64,  40, -31,  -9, NOCROP, file]
+		[  80, 320,  64,  32, -31,  -9, NOCROP, file]
+		[ 160, 320,  64,  32, -31,  -9, NOCROP, file]
+		[ 240, 320,  64,  40, -31,  -9, NOCROP, file]
+		[ 320, 320,  64,  40, -31,  -9, NOCROP, file]
+		[ 400, 320,  64,  32, -31,  -9, NOCROP, file]
+		[ 480, 320,  64,  40, -31,  -9, NOCROP, file]
+		[ 560, 320,  64,  40, -31,  -9, NOCROP, file]
+		[ 640, 320,  64,  32, -31,  -9, NOCROP, file]
+		[ 720, 320,  64,  32, -31,  -9, NOCROP, file]
+		[   0, 370,  64,  40, -31,  -9, NOCROP, file]
+		[  80, 370,  64,  40, -31,  -9, NOCROP, file]
+		[ 160, 370,  64,  40, -31,  -9, NOCROP, file]
+		[ 240, 370,  64,  40, -31,  -9, NOCROP, file]
+		[ 320, 370,  64,  40, -15, -17, NOCROP, file]
+		[ 400, 370,  64,  33, -31, -25, NOCROP, file]
+		[ 480, 370,  64,  40, -47, -17, NOCROP, file]
+		[ 560, 370,  64,  33, -31,  -9, NOCROP, file]
+		[ 640, 370,  64,  40, -15, -17, NOCROP, file]
+		[ 720, 370,  64,  33, -31, -25, NOCROP, file]
+		[   0, 420,  64,  40, -47, -17, NOCROP, file]
+		[  80, 420,  64,  33, -31,  -9, NOCROP, file]
+		[ 160, 420,  64,  40, -15, -17, NOCROP, file]
+		[ 240, 420,  64,  33, -31, -25, NOCROP, file]
+		[ 320, 420,  64,  40, -47, -17, NOCROP, file]
+		[ 400, 420,  64,  33, -31,  -9, NOCROP, file]
+		[ 480, 420,  64,  40, -15, -17, NOCROP, file]
+		[ 560, 420,  64,  33, -31, -25, NOCROP, file]
+		[ 640, 420,  64,  40, -47, -17, NOCROP, file]
+		[ 720, 420,  64,  33, -31,  -9, NOCROP, file]
+}
+//################ TUNNELS
+template road_tunnels_template(y) {
+	[ 113,   y,  64,  39, -31,  -8]
+	[ 193,   y,  64,  39, -31, -38]
+	[ 653,   y,  64,  23, -31,   0]
+	[ 733,   y,  64,  23, -31, -30]
+	[ 337,   y,  64,  23, -31,   0]
+	[ 417,   y,  64,  23, -31, -30]
+	[ 877,   y,  64,  39, -31,  -8]
+	[ 957,   y,  64,  39, -31, -38]
+}
+
+
+
+
+
+
+
+template tmpl_level_ground_file(x, y, ANIM_FLAG, file) {
+    [ x, y, 64, 31, -31,  0, ANIM_FLAG, file ]
+}
+template tmpl_level_ground_anim(x, y) {
+    [ x, y, 64, 31, -31,  0, ANIM ]
+}
+template tmpl_level_ground(x, y) {
+    [ x, y, 64, 31, -31,  0 ]
+}
+template tmpl_normal_slope(x, y, zoffset) {
+    [ x, y, 64, 31, -31,  zoffset ]
+}
+
+template tmpl_groundtiles(x, y) {
+    [   0+x,   y, 64, 31, -31,  0 ]
+    [  80+x,   y, 64, 31, -31,  0 ]
+    [ 160+x,   y, 64, 23, -31,  0 ]
+    [ 240+x,   y, 64, 23, -31,  0 ]
+
+    [ 320+x,   y, 64, 31, -31,  0 ]
+    [ 398+x,   y, 64, 31, -31,  0 ]
+    [ 478+x,   y, 64, 23, -31,  0 ]
+    [ 558+x,   y, 64, 23, -31,  0 ]
+
+    [ 638+x,   y, 64, 39, -31, -8 ]
+    [ 718+x,   y, 64, 39, -31, -8 ]
+    [ 798+x,   y, 64, 31, -31, -8 ]
+    [ 878+x,   y, 64, 31, -31, -8 ]
+
+    [ 958+x,   y, 64, 39, -31, -8 ]
+    [1038+x,   y, 64, 39, -31, -8 ]
+    [1118+x,   y, 64, 31, -31, -8 ]
+    [1196+x,   y, 64, 47, -31,-16 ]
+
+    [1276+x,   y, 64, 15, -31,  0 ]
+    [1356+x,   y, 64, 31, -31, -8 ]
+    [1436+x,   y, 64, 31, -31, -8 ]
+}
+
+template tmpl_rough(x, y) {
+    tmpl_level_ground(    x, y)
+    tmpl_level_ground( 80+x, y)
+    tmpl_level_ground(160+x, y)
+    tmpl_level_ground(240+x, y)
+}
+
+template tmpl_additional_rough(x, y) {
+    tmpl_rough(1510+x, y)
+}
+
+template tmpl_slope_to_se(file) { [ 479, 1, 64, 23, -31,  0, file] }
+template tmpl_slope_to_sw(file) { [ 241, 1, 64, 23, -31,  0, file] }
+template tmpl_slope_to_ne(file) { [ 959, 1, 64, 39, -31, -8, file] }
+template tmpl_slope_to_nw(file) { [ 719, 1, 64, 39, -31, -8, file] }
+
+
+
+template tmpl_tree_wide() {
+	[  0, 0, 45, 80, -24, -73]
+	[ 50, 0, 45, 80, -24, -73]
+	[100, 0, 45, 80, -24, -73]
+	[150, 0, 45, 80, -24, -73]
+	[200, 0, 45, 80, -24, -73]
+	[250, 0, 45, 80, -24, -73]
+	[300, 0, 45, 80, -24, -73]
+}
+
+template tmpl_tree_narrow() {
+	[  0, 0, 35, 80, -19, -73]
+	[ 40, 0, 35, 80, -19, -73]
+	[ 80, 0, 35, 80, -19, -73]
+	[120, 0, 35, 80, -19, -73]
+	[160, 0, 35, 80, -19, -73]
+	[200, 0, 35, 80, -19, -73]
+	[240, 0, 35, 80, -19, -73]
+}
