@@ -17,13 +17,14 @@ grf {
             name:   string(STR_PARAM_FOUNDATIONS_NAME);
             desc:   string(STR_PARAM_FOUNDATIONS_DESC);
             min_value:  0;
-            max_value:  3;
+            max_value:  4;
             def_value:  0;
             names:  {
+						0: string(STR_PARAM_FOUNDATIONS_DISABLED);
 						0: string(STR_PARAM_FOUNDATIONS_GFX_TEMPERATE);
 						1: string(STR_PARAM_FOUNDATIONS_GFX_ARCTIC);
 						2: string(STR_PARAM_FOUNDATIONS_GFX_TROPICAL);
-						3: string(STR_PARAM_FOUNDATIONS_GFX_TOYLAND);
+						4: string(STR_PARAM_FOUNDATIONS_GFX_TOYLAND);
 			};
         }
 	}
@@ -33,11 +34,12 @@ grf {
             name:   string(STR_PARAM_TUNNELS_NAME);
             desc:   string(STR_PARAM_TUNNELS_DESC);
             min_value:  0;
-            max_value:  1;
+            max_value:  2;
             def_value:  0;
             names:  {
+						0: string(STR_PARAM_TUNNELS_DISABLED);
 						0: string(STR_PARAM_TUNNELS_OPENGFX);
-						1: string(STR_PARAM_TUNNELS_CLASSIC);
+						2: string(STR_PARAM_TUNNELS_CLASSIC);
 			};
         }
 	}

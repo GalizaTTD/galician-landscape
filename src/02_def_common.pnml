@@ -6,10 +6,10 @@
 */
 
 
-#define  TEMPERATE		0
-#define  ARCTIC			1
-#define  TROPICAL		2
-#define  TOYLAND		3
+#define  TEMPERATE		1
+#define  ARCTIC			2
+#define  TROPICAL		3
+#define  TOYLAND		4
 
-#define TUNNEL_OPENGFX	0
-#define TUNNEL_CLASSIC	1
+#define TUNNEL_OPENGFX	1
+#define TUNNEL_CLASSIC	2

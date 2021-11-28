@@ -6,16 +6,18 @@
 STR_GRF_NAME        :Paisaxe personalizado {VERSION}
 STR_GRF_DESCRIPTION :{TITLE} - Permite escoller o estilo da paisaxe que máis che guste.{}{COPYRIGHT}2021 OpenGFX (graphics), pvillaverde (NML)
 
-STR_PARAM_FOUNDATIONS_NAME              :Estilo dos cimentos
-STR_PARAM_FOUNDATIONS_DESC              :Selecciona o estilo dos cimentos do terreo
+STR_PARAM_FOUNDATIONS_NAME              	:Estilo dos cimentos
+STR_PARAM_FOUNDATIONS_DESC              	:Selecciona o estilo dos cimentos do terreo
 
-STR_PARAM_FOUNDATIONS_GFX_TEMPERATE					:OpenGFX+ {LTBLUE}Temperado
-STR_PARAM_FOUNDATIONS_GFX_ARCTIC					:OpenGFX+ {LTBLUE}Ártico
-STR_PARAM_FOUNDATIONS_GFX_TROPICAL					:OpenGFX+ {LTBLUE}Tropical
-STR_PARAM_FOUNDATIONS_GFX_TOYLAND					:OpenGFX+ {LTBLUE}Terra de Xoguetes
+STR_PARAM_FOUNDATIONS_DISABLED				:Disabled (default)
+STR_PARAM_FOUNDATIONS_GFX_TEMPERATE			:OpenGFX+ {LTBLUE}Temperado
+STR_PARAM_FOUNDATIONS_GFX_ARCTIC			:OpenGFX+ {LTBLUE}Ártico
+STR_PARAM_FOUNDATIONS_GFX_TROPICAL			:OpenGFX+ {LTBLUE}Tropical
+STR_PARAM_FOUNDATIONS_GFX_TOYLAND			:OpenGFX+ {LTBLUE}Terra de Xoguetes
 
-STR_PARAM_TUNNELS_NAME              :Estilo dos tuneis
-STR_PARAM_TUNNELS_DESC              :Selecciona o estilo dos túneis de estrada
+STR_PARAM_TUNNELS_NAME             		 	:Estilo dos tuneis
+STR_PARAM_TUNNELS_DESC              		:Selecciona o estilo dos túneis de estrada
 
+STR_PARAM_TUNNELS_DISABLED					:Disabled (default)
 STR_PARAM_TUNNELS_OPENGFX					:OpenGFX
 STR_PARAM_TUNNELS_CLASSIC					:Clásicos

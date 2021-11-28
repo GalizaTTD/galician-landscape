@@ -1,14 +1,14 @@
-# Kirfed Custom Landscape
+# Galician Landscape
 [![GitHub license][license-shield]][license-url] [![BaNaNaS URL][bananas-shield]][bananas-url]
 
-<!-- ![Kirfed Custom Landscape](https://i.imgur.com/hh4OoUU.png) -->
+<!-- ![Galician Landscape](https://i.imgur.com/hh4OoUU.png) -->
 
 <!-- TABLE OF CONTENTS, generated with gh-md-toc README.md (see #acknowledgements) -->
 
 Table of Contents
 =================
 
-* [Kirfed Custom Landscape](#spanish-railsets)
+* [Galician Landscape](#spanish-railsets)
 * [Table of Contents](#table-of-contents)
    * [About The Project](#about-the-project)
    * [Getting Started](#getting-started)
@@ -42,7 +42,7 @@ Customizes your landscapes by choosing which foundations or tunnels to use.
 ### How to Compile it (from Linux)
 
 - [Install NML with its requirements](http://newgrf-specs.tt-wiki.net/wiki/NML:Getting_started)
-- Download last version from this repository <https://github.com/pvillaverde/openttd-kirfed-custom-landscape>
+- Download last version from this repository <https://github.com/GalizaTTD/galician-landscape>
 - "pandoc" command is used to generate txt docs from github docs (LICENSE, CHANGELOG & README)
 - In order to compile the NewGRF you only need to execute `make` command.
 - You can install it directly on the game customizing `INSTALL_DIR` on `Makefile.config` and running `make install`.
@@ -70,6 +70,7 @@ If you want to add any missing feature or report a bug, you [can request ir or r
 
 - Pablo Villaverde Castro - [@clankirfed](https://twitter.com/clankirfed)
 - OpenGFX - https://github.com/OpenTTD/OpenGFX
+- EmperorJake ([LGBT Flags](https://github.com/EmperorJake/LGBTflags))
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -93,7 +94,7 @@ Distributed under the GNU GPL-v3 License. See [LICENSE][license-url] on for more
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/badge/license-GNU%20GPL--v3-brightgreen
 [bananas-shield]: https://img.shields.io/badge/BaNaNaS-1.0-informational
-[license-url]: https://github.com/pvillaverde/openttd-kirfed-custom-landscape/blob/main/LICENSE
-[project-url]: https://github.com/pvillaverde/openttd-kirfed-custom-landscape
-[issues-url]: https://github.com/pvillaverde/openttd-kirfed-custom-landscape/issues
+[license-url]: https://github.com/GalizaTTD/galician-landscape/blob/main/LICENSE
+[project-url]: https://github.com/GalizaTTD/galician-landscape
+[issues-url]: https://github.com/GalizaTTD/galician-landscape/issues
 [bananas-url]: https://bananas.openttd.org/package/newgrf/4b463031
