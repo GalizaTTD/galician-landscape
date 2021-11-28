@@ -1,0 +1,290 @@
+
+
+spriteset(spriteset_rainbow, 	"src/gfx/flags/rainbow.png") 	{ tmp_flag() }
+spriteset(spriteset_gay, 		"src/gfx/flags/gay.png") 		{ tmp_flag() }
+spriteset(spriteset_lesbian, 	"src/gfx/flags/lesbian.png") 	{ tmp_flag() }
+spriteset(spriteset_bi, 		"src/gfx/flags/bi.png") 		{ tmp_flag() }
+
+
+spritelayout layout_rainbow { 	ground { sprite: spriteset_rainbow; }	building { sprite: spriteset_rainbow; }}
+spritelayout layout_gay 	{ 	ground { sprite: spriteset_gay; }		building { sprite: spriteset_gay; }}
+spritelayout layout_lesbian { 	ground { sprite: spriteset_lesbian; }	building { sprite: spriteset_lesbian; }}
+spritelayout layout_bi 		{ 	ground { sprite: spriteset_bi; }		building { sprite: spriteset_bi; }}
+
+switch (FEAT_OBJECTS, SELF, switch_flags1_variant, view) {
+    0:  layout_rainbow;
+    1:  layout_gay;
+    2:  layout_lesbian;
+    3:  layout_bi;
+}
+
+switch (FEAT_OBJECTS, SELF, switch_flags1_text, view) {
+    0:  string(STR_RAINBOW);
+    1:  string(STR_GAY);
+	2:  string(STR_LESBIAN);
+    3:  string(STR_BI);
+}
+
+
+item (FEAT_OBJECTS, flags1) {
+    property {
+        class:                  "FLAG";
+        classname:              string(STR_FLAGS);
+        name:                   string(STR_FLAGS);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  4;
+        remove_cost_multiplier: 2;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              4;
+    }
+    graphics {
+		default: switch_flags1_variant;
+        additional_text:    switch_flags1_text;
+    }
+}
+
+
+spriteset(spriteset_straight, 	"src/gfx/flags/straight.png") 	{ tmp_flag() }
+spriteset(spriteset_ally, 		"src/gfx/flags/ally.png") 		{ tmp_flag() }
+spriteset(spriteset_trans, 		"src/gfx/flags/trans.png") 		{ tmp_flag() }
+spriteset(spriteset_ace, 		"src/gfx/flags/ace.png") 		{ tmp_flag() }
+
+
+spritelayout layout_straight 	{ 	ground { sprite: spriteset_straight; }	building { sprite: spriteset_straight; }}
+spritelayout layout_ally 		{ 	ground { sprite: spriteset_ally; }		building { sprite: spriteset_ally; }}
+spritelayout layout_trans 		{ 	ground { sprite: spriteset_trans; }		building { sprite: spriteset_trans; }}
+spritelayout layout_ace 		{ 	ground { sprite: spriteset_ace; }		building { sprite: spriteset_ace; }}
+
+switch (FEAT_OBJECTS, SELF, switch_flags2_variant, view) {
+    0:  layout_straight;
+    1:  layout_ally;
+    2:  layout_trans;
+    3:  layout_ace;
+}
+
+switch (FEAT_OBJECTS, SELF, switch_flags2_text, view) {
+    0:  string(STR_STRAIGHT);
+    1:  string(STR_ALLY);
+	2:  string(STR_TRANS);
+    3:  string(STR_ACE);
+}
+
+
+item (FEAT_OBJECTS, flags2) {
+    property {
+        class:                  "FLAG";
+        classname:              string(STR_FLAGS);
+        name:                   string(STR_FLAGS);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  4;
+        remove_cost_multiplier: 2;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              4;
+    }
+    graphics {
+		default: switch_flags2_variant;
+        additional_text:    switch_flags2_text;
+    }
+}
+
+
+
+spriteset(spriteset_aro, 		"src/gfx/flags/aro.png") 		{ tmp_flag() }
+spriteset(spriteset_agender, 	"src/gfx/flags/agender.png") 	{ tmp_flag() }
+spriteset(spriteset_pan, 		"src/gfx/flags/pan.png") 		{ tmp_flag() }
+spriteset(spriteset_poly, 		"src/gfx/flags/poly.png") 		{ tmp_flag() }
+
+
+spritelayout layout_aro 	{ 	ground { sprite: spriteset_aro; }		building { sprite: spriteset_aro; }}
+spritelayout layout_agender { 	ground { sprite: spriteset_agender; }	building { sprite: spriteset_agender; }}
+spritelayout layout_pan 	{ 	ground { sprite: spriteset_pan; }		building { sprite: spriteset_pan; }}
+spritelayout layout_poly 	{ 	ground { sprite: spriteset_poly; }		building { sprite: spriteset_poly; }}
+
+switch (FEAT_OBJECTS, SELF, switch_flags3_variant, view) {
+    0:  layout_aro;
+    1:  layout_agender;
+    2:  layout_pan;
+    3:  layout_poly;
+}
+
+switch (FEAT_OBJECTS, SELF, switch_flags3_text, view) {
+    0:  string(STR_ARO);
+    1:  string(STR_AGENDER);
+	2:  string(STR_PAN);
+    3:  string(STR_POLY);
+}
+
+
+item (FEAT_OBJECTS, flags3) {
+    property {
+        class:                  "FLAG";
+        classname:              string(STR_FLAGS);
+        name:                   string(STR_FLAGS);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  4;
+        remove_cost_multiplier: 2;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              4;
+    }
+    graphics {
+		default: switch_flags3_variant;
+        additional_text:    switch_flags3_text;
+    }
+}
+
+
+spriteset(spriteset_intersex, 		"src/gfx/flags/intersex.png") 		{ tmp_flag() }
+spriteset(spriteset_genderfluid, 	"src/gfx/flags/genderfluid.png") 	{ tmp_flag() }
+spriteset(spriteset_genderqueer, 	"src/gfx/flags/genderqueer.png") 	{ tmp_flag() }
+spriteset(spriteset_enby, 			"src/gfx/flags/enby.png") 			{ tmp_flag() }
+
+
+spritelayout layout_intersex 	{ 	ground { sprite: spriteset_intersex; }		building { sprite: spriteset_intersex; }}
+spritelayout layout_genderfluid { 	ground { sprite: spriteset_genderfluid; }	building { sprite: spriteset_genderfluid; }}
+spritelayout layout_genderqueer { 	ground { sprite: spriteset_genderqueer; }	building { sprite: spriteset_genderqueer; }}
+spritelayout layout_enby 		{ 	ground { sprite: spriteset_enby; }			building { sprite: spriteset_enby; }}
+
+switch (FEAT_OBJECTS, SELF, switch_flags4_variant, view) {
+    0:  layout_intersex;
+    1:  layout_genderfluid;
+    2:  layout_genderqueer;
+    3:  layout_enby;
+}
+
+switch (FEAT_OBJECTS, SELF, switch_flags4_text, view) {
+    0:  string(STR_INTERSEX);
+    1:  string(STR_GENDERFLUID);
+	2:  string(STR_GENDERQUEER);
+    3:  string(STR_ENBY);
+}
+
+
+item (FEAT_OBJECTS, flags4) {
+    property {
+        class:                  "FLAG";
+        classname:              string(STR_FLAGS);
+        name:                   string(STR_FLAGS);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  4;
+        remove_cost_multiplier: 2;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              4;
+    }
+    graphics {
+		default: switch_flags4_variant;
+        additional_text:    switch_flags4_text;
+    }
+}
+
+// Bandeiras Galicia e outras
+
+
+spriteset(spriteset_galiza, 			"src/gfx/flags/galiza.png") 			{ tmp_flag() }
+spriteset(spriteset_galiza_estreleira, 	"src/gfx/flags/galiza_estreleira.png") 	{ tmp_flag() }
+spriteset(spriteset_portugal, 			"src/gfx/flags/portugal.png") 			{ tmp_flag() }
+spriteset(spriteset_asturias, 			"src/gfx/flags/asturias.png") 			{ tmp_flag() }
+
+
+spritelayout layout_galiza 				{ 	ground { sprite: spriteset_galiza; }			building { sprite: spriteset_galiza; }}
+spritelayout layout_galiza_estreleira 	{ 	ground { sprite: spriteset_galiza_estreleira; }	building { sprite: spriteset_galiza_estreleira; }}
+spritelayout layout_portugal 			{ 	ground { sprite: spriteset_portugal; }			building { sprite: spriteset_portugal; }}
+spritelayout layout_asturias 			{ 	ground { sprite: spriteset_asturias; }			building { sprite: spriteset_asturias; }}
+
+switch (FEAT_OBJECTS, SELF, switch_flags5_variant, view) {
+    0:  layout_galiza;
+    1:  layout_galiza_estreleira;
+    2:  layout_portugal;
+    3:  layout_asturias;
+}
+
+switch (FEAT_OBJECTS, SELF, switch_flags5_text, view) {
+    0:  string(STR_GALIZA);
+    1:  string(STR_GALIZA_ESTRELEIRA);
+	2:  string(STR_PORTUGAL);
+    3:  string(STR_ASTURIAS);
+}
+
+
+item (FEAT_OBJECTS, flags5) {
+    property {
+        class:                  "FLAG";
+        classname:              string(STR_FLAGS);
+        name:                   string(STR_FLAGS);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  4;
+        remove_cost_multiplier: 2;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              4;
+    }
+    graphics {
+		default: switch_flags5_variant;
+        additional_text:    switch_flags5_text;
+    }
+}
+
+spriteset(spriteset_spain, 			"src/gfx/flags/spain.png") 			{ tmp_flag() }
+spriteset(spriteset_spain_rep, 		"src/gfx/flags/spain_rep.png") 		{ tmp_flag() }
+spriteset(spriteset_castela, 		"src/gfx/flags/castela.png") 		{ tmp_flag() }
+spriteset(spriteset_europe, 		"src/gfx/flags/europe.png") 		{ tmp_flag() }
+
+
+spritelayout layout_spain 			{ 	ground { sprite: spriteset_spain; }			building { sprite: spriteset_spain; }}
+spritelayout layout_spain_rep 		{ 	ground { sprite: spriteset_spain_rep; }		building { sprite: spriteset_spain_rep; }}
+spritelayout layout_castela 		{ 	ground { sprite: spriteset_castela; }		building { sprite: spriteset_castela; }}
+spritelayout layout_europe 			{ 	ground { sprite: spriteset_europe; }		building { sprite: spriteset_europe; }}
+
+switch (FEAT_OBJECTS, SELF, switch_flags6_variant, view) {
+    0:  layout_spain;
+    1:  layout_spain_rep;
+    2:  layout_castela;
+    3:  layout_europe;
+}
+
+switch (FEAT_OBJECTS, SELF, switch_flags6_text, view) {
+    0:  string(STR_SPAIN);
+    1:  string(STR_SPAIN_REP);
+	2:  string(STR_CASTELA);
+    3:  string(STR_EUROPE);
+}
+
+
+item (FEAT_OBJECTS, flags6) {
+    property {
+        class:                  "FLAG";
+        classname:              string(STR_FLAGS);
+        name:                   string(STR_FLAGS);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  4;
+        remove_cost_multiplier: 2;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              4;
+    }
+    graphics {
+		default: switch_flags6_variant;
+        additional_text:    switch_flags6_text;
+    }
+}

@@ -21,3 +21,31 @@ STR_PARAM_TUNNELS_DESC              		:Selecciona o estilo dos túneis de estrad
 STR_PARAM_TUNNELS_DISABLED					:Disabled (default)
 STR_PARAM_TUNNELS_OPENGFX					:OpenGFX
 STR_PARAM_TUNNELS_CLASSIC					:Clásicos
+
+STR_FLAGS				:Flags
+
+STR_RAINBOW				:Rainbow Flag
+STR_GAY					:Gay Men Flag
+STR_LESBIAN				:Lesbian Flag
+STR_BI					:Bisexual Flag
+STR_TRANS				:Transgender Flag
+STR_INTERSEX			:Intersex Flag
+STR_GENDERQUEER			:Genderqueer Flag
+STR_PAN					:Pansexual Flag
+STR_POLY				:Polysexual Flag
+STR_ACE					:Asexual Flag
+STR_AGENDER				:Agender Flag
+STR_ARO					:Aromantic Flag
+STR_ENBY				:Non-Binary Flag	
+STR_GENDERFLUID			:Genderfluid Flag
+STR_STRAIGHT			:Straight Flag
+STR_ALLY				:Straight Ally Flag
+
+STR_GALIZA				:Galician Flag
+STR_GALIZA_ESTRELEIRA	:Galician Flag (Estreleira)
+STR_PORTUGAL			:Portugal Flag
+STR_ASTURIAS			:Asturias Flag
+STR_SPAIN				:Spain Flag
+STR_SPAIN_REP			:Spanish Republic Flag
+STR_CASTELA				:Castille & Leon Flag
+STR_EUROPE				:European Union Flag

@@ -18,6 +18,7 @@
 
 #include "src/10_foundations.pnml" 
 #include "src/11_tunnels.pnml" 
+#include "src/12_flags.pnml" 
 
 
 
