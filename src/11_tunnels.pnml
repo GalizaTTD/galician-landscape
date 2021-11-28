@@ -3,27 +3,45 @@ if (param_tunnels == TUNNEL_CLASSIC) {
 	//temperate 2429-2436 tunnel gui
 	/* replace (2429, "sprites/png/gui/road_tunnels_gui.png") { [ 0,  0,  20,  20,   0,   0] } // road tunnel
 	alternative_sprites (spr2429, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/road_tunnels_gui.png") { tmpl_gui2x_toolbar(72, 0) } */
-	
-	// temperate road tunnels 2389 - 2396
-	replace (2389, "src/gfx/tunnels/classic.png") { road_tunnels_template(27) }
-	// snowy road tunnels 2421 - 2428
-	replace (2421, "src/gfx/tunnels/classic.png") { road_tunnels_template(249) }
-	// arctic road tunnel 238 - 245
-	replace (238, "src/gfx/tunnels/classic.png") { road_tunnels_template(101) }
-	// tropical road tunnel on desert ground 509 - 516
-	replace (509, "src/gfx/tunnels/classic.png") { road_tunnels_template(322) }
-	// toyland Road tunnel sprites 1170 - 1177
-	replace (1170, "src/gfx/tunnels/classic.png") { road_tunnels_template(396) }
+
+
+	if (climate == CLIMATE_TEMPERATE) {
+		replace (2389, "src/gfx/tunnels/classic.png") { road_tunnels_template(27) }
+		replace (2421, "src/gfx/tunnels/classic.png") { road_tunnels_template(249) }
+	}
+	if (climate == CLIMATE_ARCTIC) {
+		replace (2389, "src/gfx/tunnels/classic.png") { road_tunnels_template(27) }
+		replace (2421, "src/gfx/tunnels/classic.png") { road_tunnels_template(249) }
+	}
+
+	if (climate == CLIMATE_TROPICAL) {
+		replace (2389, "src/gfx/tunnels/classic.png") { road_tunnels_template(175) }
+		replace (2421, "src/gfx/tunnels/classic.png") { road_tunnels_template(322) }
+	}
+
+	if (climate == CLIMATE_TOYLAND) {
+		replace (2389, "src/gfx/tunnels/classic.png") { road_tunnels_template(396) }
+		replace (2421, "src/gfx/tunnels/classic.png") { road_tunnels_template(249) }
+	}
 }else if(param_tunnels == TUNNEL_OPENGFX) {
-	// temperate road tunnels 2389 - 2396
-	replace (2389, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(27) }
-	// snowy road tunnels 2421 - 2428
-	replace (2421, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(249) }
-	// arctic road tunnel 238 - 245
-	replace (238, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(101) }
-	// tropical road tunnel on desert ground 509 - 516
-	replace (509, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(322) }
-	// toyland Road tunnel sprites 1170 - 1177
-	replace (1170, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(396) }
+
+	if (climate == CLIMATE_TEMPERATE) {
+		replace (2389, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(27) }
+		replace (2421, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(249) }
+	}
+	if (climate == CLIMATE_ARCTIC) {
+		replace (2389, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(27) }
+		replace (2421, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(249) }
+	}
+
+	if (climate == CLIMATE_TROPICAL) {
+		replace (2389, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(175) }
+		replace (2421, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(322) }
+	}
+
+	if (climate == CLIMATE_TOYLAND) {
+		replace (2389, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(396) }
+		replace (2421, "src/gfx/tunnels/opengfx.png") { road_tunnels_template(249) }
+	}
 
 }

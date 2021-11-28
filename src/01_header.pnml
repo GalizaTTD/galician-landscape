@@ -21,9 +21,9 @@ grf {
             def_value:  0;
             names:  {
 						0: string(STR_PARAM_FOUNDATIONS_DISABLED);
-						0: string(STR_PARAM_FOUNDATIONS_GFX_TEMPERATE);
-						1: string(STR_PARAM_FOUNDATIONS_GFX_ARCTIC);
-						2: string(STR_PARAM_FOUNDATIONS_GFX_TROPICAL);
+						1: string(STR_PARAM_FOUNDATIONS_GFX_TEMPERATE);
+						2: string(STR_PARAM_FOUNDATIONS_GFX_ARCTIC);
+						3: string(STR_PARAM_FOUNDATIONS_GFX_TROPICAL);
 						4: string(STR_PARAM_FOUNDATIONS_GFX_TOYLAND);
 			};
         }
@@ -38,7 +38,7 @@ grf {
             def_value:  0;
             names:  {
 						0: string(STR_PARAM_TUNNELS_DISABLED);
-						0: string(STR_PARAM_TUNNELS_OPENGFX);
+						1: string(STR_PARAM_TUNNELS_OPENGFX);
 						2: string(STR_PARAM_TUNNELS_CLASSIC);
 			};
         }

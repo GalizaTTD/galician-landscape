@@ -1,33 +1,21 @@
 
 if (param_foundations == TEMPERATE) {
 	replace (990, "src/gfx/temperate/foundations.png") {	foundations_template()	}
-	replace (328, "src/gfx/temperate/foundations.png") {	foundations_template()	}
-	/* replace (517, "src/gfx/temperate/foundations.png") {	foundations_template()	} */
-	replace (543, "src/gfx/temperate/foundations.png") {	foundations_template()	}
 	replacenew(FOUNDATIONS_SLOPES_HALFTILES, "") {
 		sloped_foundations_template("src/gfx/temperate/sloped_foundations.png")
 	}
 }else if(param_foundations == ARCTIC) {
 	replace (990, "src/gfx/arctic/foundations.png") {	foundations_template()	}
-	replace (328, "src/gfx/arctic/foundations.png") {	foundations_template()	}
-	/* replace (517, "src/gfx/arctic/foundations.png") {	foundations_template()	} */
-	replace (543, "src/gfx/arctic/foundations.png") {	foundations_template()	}
 	replacenew(FOUNDATIONS_SLOPES_HALFTILES, "") {
 		sloped_foundations_template("src/gfx/arctic/sloped_foundations.png")
 	}
 }else if(param_foundations == TROPICAL) {
 	replace (990, "src/gfx/tropical/foundations.png") {	foundations_template()	}
-	replace (328, "src/gfx/tropical/foundations.png") {	foundations_template()	}
-	/* replace (517, "src/gfx/tropical/foundations.png") {	foundations_template()	} */
-	replace (543, "src/gfx/tropical/foundations.png") {	foundations_template()	}
 	replacenew(FOUNDATIONS_SLOPES_HALFTILES, "") {
 		sloped_foundations_template("src/gfx/tropical/sloped_foundations.png")
 	}
 }else if(param_foundations == TOYLAND) {
 	replace (990, "src/gfx/toyland/foundations.png") {	foundations_template()	}
-	replace (328, "src/gfx/toyland/foundations.png") {	foundations_template()	}
-	/* replace (517, "src/gfx/toyland/foundations.png") {	foundations_template()	} */
-	replace (543, "src/gfx/toyland/foundations.png") {	foundations_template()	}
 	replacenew(FOUNDATIONS_SLOPES_HALFTILES, "") {
 		sloped_foundations_template("src/gfx/toyland/sloped_foundations.png")
 	}
