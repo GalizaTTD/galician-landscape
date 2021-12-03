@@ -22,30 +22,34 @@ STR_PARAM_TUNNELS_DISABLED					:Deshabilitado (Por defecto)
 STR_PARAM_TUNNELS_OPENGFX					:OpenGFX
 STR_PARAM_TUNNELS_CLASSIC					:Clásicos
 
-STR_FLAGS				:Banderas
+STR_FLAG_CLASSNAME				:Banderas
 
-STR_RAINBOW				:Bandera Arcoiris
-STR_GAY					:Bandera Hombres Gay
-STR_LESBIAN				:Bandera Lesbianas
-STR_BI					:Bandera Bisexuales
-STR_TRANS				:Bandera Transgénero
-STR_INTERSEX			:Bandera Intersexuales
-STR_GENDERQUEER			:Bandera Género Queer
-STR_PAN					:Bandera Pansexual
-STR_POLY				:Bandera Polisexuales
-STR_ACE					:Bandera Asexuales
-STR_AGENDER				:Bandera Agénero
-STR_ARO					:Bandera Arománticas
-STR_ENBY				:Bandera No-Binaria
-STR_GENDERFLUID			:Bandera Género fluído
-STR_STRAIGHT			:Bandera Heterosexuales
-STR_ALLY				:Bandera Aliados Heterosexuales
+STR_FLAG_RAINBOW				:Bandera Arcoiris
+STR_FLAG_GAY					:Bandera Hombres Gay
+STR_FLAG_LESBIAN				:Bandera Lesbianas
+STR_FLAG_BI						:Bandera Bisexuales
+STR_FLAG_TRANS					:Bandera Transgénero
+STR_FLAG_INTERSEX				:Bandera Intersexuales
+STR_FLAG_GENDERQUEER			:Bandera Género Queer
+STR_FLAG_PAN					:Bandera Pansexual
+STR_FLAG_POLY					:Bandera Polisexuales
+STR_FLAG_ACE					:Bandera Asexuales
+STR_FLAG_AGENDER				:Bandera Agénero
+STR_FLAG_ARO					:Bandera Arománticas
+STR_FLAG_ENBY					:Bandera No-Binaria
+STR_FLAG_GENDERFLUID			:Bandera Género fluído
+STR_FLAG_STRAIGHT				:Bandera Heterosexuales
+STR_FLAG_ALLY					:Bandera Aliados Heterosexuales
 
-STR_GALIZA				:Bandera de Galiza
-STR_GALIZA_ESTRELEIRA	:Bandera de Galiza (Estreleira)
-STR_PORTUGAL			:Bandera de Portugal
-STR_ASTURIAS			:Bandera de Asturias
-STR_SPAIN				:Bandera de España
-STR_SPAIN_REP			:Bandera de la República Española
-STR_CASTELA				:Bandera de Castilla y León
-STR_EUROPE				:Bandera de la Unión Europea
+STR_FLAG_GALIZA					:Bandera de Galiza
+STR_FLAG_GALIZA_ESTRELEIRA		:Bandera de Galiza (Estreleira)
+STR_FLAG_PORTUGAL				:Bandera de Portugal
+STR_FLAG_ASTURIAS				:Bandera de Asturias
+STR_FLAG_SPAIN					:Bandera de España
+STR_FLAG_SPAIN_REP				:Bandera de la República Española
+STR_FLAG_CASTELA				:Bandera de Castilla y León
+STR_FLAG_EUROPE					:Bandera de la Unión Europea
+
+STR_LH_CLASSNAME				:Faros de Galiza
+STR_LH_HERCULES					:Torre de Hércules
+STR_LH_HERCULES_DESC			:La Torre de Hércules es una torre y faro situado sobre una colina en la península de la ciudad de A Coruña, en Galicia. Su altura total es de 55 metros, ​​ y data del s. I d. C. Tiene el privilegio de ser el único faro romano y el más antiguo en funcionamiento del mundo.

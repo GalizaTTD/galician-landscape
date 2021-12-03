@@ -3,8 +3,8 @@
 # This is the Galician language file
 
 # GRF name and description
-STR_GRF_NAME        :Paisaxe personalizado {VERSION}
-STR_GRF_DESCRIPTION :{TITLE} - Permite escoller o estilo da paisaxe que máis che guste.{}{COPYRIGHT}2021 OpenGFX (graphics), pvillaverde (NML)
+STR_GRF_NAME        :SOGAMA - Set de Obxectos Galegos do Medio Ambiente {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Permite escoller o estilo da paisaxe que máis che guste.{}{COPYRIGHT}2021 OpenGFX (graphics)EmperorJake(LGBT Flags), pvillaverde (NML)
 
 STR_PARAM_FOUNDATIONS_NAME              	:Estilo dos cimentos
 STR_PARAM_FOUNDATIONS_DESC              	:Selecciona o estilo dos cimentos do terreo
@@ -22,30 +22,34 @@ STR_PARAM_TUNNELS_DISABLED					:Deshabilitado (Por defecto)
 STR_PARAM_TUNNELS_OPENGFX					:OpenGFX
 STR_PARAM_TUNNELS_CLASSIC					:Clásicos
 
-STR_FLAGS				:Bandeiras
+STR_FLAG_CLASSNAME				:Bandeiras
 
-STR_RAINBOW				:Bandeira Arco da vella
-STR_GAY					:Bandeira Homes Gay
-STR_LESBIAN				:Bandeira Lesbianas
-STR_BI					:Bandeira Bisexuais
-STR_TRANS				:Bandeira Transxénero
-STR_INTERSEX			:Bandeira Intersexuais
-STR_GENDERQUEER			:Bandeira Xénero Queer
-STR_PAN					:Bandeira Pansexual
-STR_POLY				:Bandeira Polisexuais
-STR_ACE					:Bandeira Asexuais
-STR_AGENDER				:Bandeira Axénero
-STR_ARO					:Bandeira Arománticas
-STR_ENBY				:Bandeira Non-Binaria
-STR_GENDERFLUID			:Bandeira Xénero fluído
-STR_STRAIGHT			:Bandeira Heterosexuais
-STR_ALLY				:Bandeira Aliados Heterosexuais
+STR_FLAG_RAINBOW				:Bandeira Arco da vella
+STR_FLAG_GAY					:Bandeira Homes Gay
+STR_FLAG_LESBIAN				:Bandeira Lesbianas
+STR_FLAG_BI						:Bandeira Bisexuais
+STR_FLAG_TRANS					:Bandeira Transxénero
+STR_FLAG_INTERSEX				:Bandeira Intersexuais
+STR_FLAG_GENDERQUEER			:Bandeira Xénero Queer
+STR_FLAG_PAN					:Bandeira Pansexual
+STR_FLAG_POLY					:Bandeira Polisexuais
+STR_FLAG_ACE					:Bandeira Asexuais
+STR_FLAG_AGENDER				:Bandeira Axénero
+STR_FLAG_ARO					:Bandeira Arománticas
+STR_FLAG_ENBY					:Bandeira Non-Binaria
+STR_FLAG_GENDERFLUID			:Bandeira Xénero fluído
+STR_FLAG_STRAIGHT				:Bandeira Heterosexuais
+STR_FLAG_ALLY					:Bandeira Aliados Heterosexuais
 
-STR_GALIZA				:Bandeira de Galiza
-STR_GALIZA_ESTRELEIRA	:Bandeira de Galiza (Estreleira)
-STR_PORTUGAL			:Bandeira de Portugal
-STR_ASTURIAS			:Bandeira de Asturias
-STR_SPAIN				:Bandeira de España
-STR_SPAIN_REP			:Bandeira da República Española
-STR_CASTELA				:Bandeira de Castela e León
-STR_EUROPE				:Bandeira da Unión Europea
+STR_FLAG_GALIZA					:Bandeira de Galiza
+STR_FLAG_GALIZA_ESTRELEIRA		:Bandeira de Galiza (Estreleira)
+STR_FLAG_PORTUGAL				:Bandeira de Portugal
+STR_FLAG_ASTURIAS				:Bandeira de Asturias
+STR_FLAG_SPAIN					:Bandeira de España
+STR_FLAG_SPAIN_REP				:Bandeira da República Española
+STR_FLAG_CASTELA				:Bandeira de Castela e León
+STR_FLAG_EUROPE					:Bandeira da Unión Europea
+
+STR_LH_CLASSNAME				:Faros de Galiza
+STR_LH_HERCULES					:Torre de Hércules
+STR_LH_HERCULES_DESC			:A Torre de Hércules é unha torre e faro situado na península da cidade da Coruña, que ten o privilexio de ser o único faro de orixe romana en funcionamento no mundo. Está nun cabo. O 27 de xuño de 2009 foi proclamada Patrimonio da Humanidade en Sevilla pola Comisión do Patrimonio Mundial da UNESCO.

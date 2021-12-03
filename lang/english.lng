@@ -22,30 +22,34 @@ STR_PARAM_TUNNELS_DISABLED					:Disabled (default)
 STR_PARAM_TUNNELS_OPENGFX					:OpenGFX
 STR_PARAM_TUNNELS_CLASSIC					:Clásicos
 
-STR_FLAGS				:Flags
+STR_FLAG_CLASSNAME				:Flags
 
-STR_RAINBOW				:Rainbow Flag
-STR_GAY					:Gay Men Flag
-STR_LESBIAN				:Lesbian Flag
-STR_BI					:Bisexual Flag
-STR_TRANS				:Transgender Flag
-STR_INTERSEX			:Intersex Flag
-STR_GENDERQUEER			:Genderqueer Flag
-STR_PAN					:Pansexual Flag
-STR_POLY				:Polysexual Flag
-STR_ACE					:Asexual Flag
-STR_AGENDER				:Agender Flag
-STR_ARO					:Aromantic Flag
-STR_ENBY				:Non-Binary Flag	
-STR_GENDERFLUID			:Genderfluid Flag
-STR_STRAIGHT			:Straight Flag
-STR_ALLY				:Straight Ally Flag
+STR_FLAG_RAINBOW				:Rainbow Flag
+STR_FLAG_GAY					:Gay Men Flag
+STR_FLAG_LESBIAN				:Lesbian Flag
+STR_FLAG_BI						:Bisexual Flag
+STR_FLAG_TRANS					:Transgender Flag
+STR_FLAG_INTERSEX				:Intersex Flag
+STR_FLAG_GENDERQUEER			:Genderqueer Flag
+STR_FLAG_PAN					:Pansexual Flag
+STR_FLAG_POLY					:Polysexual Flag
+STR_FLAG_ACE					:Asexual Flag
+STR_FLAG_AGENDER				:Agender Flag
+STR_FLAG_ARO					:Aromantic Flag
+STR_FLAG_ENBY					:Non-Binary Flag	
+STR_FLAG_GENDERFLUID			:Genderfluid Flag
+STR_FLAG_STRAIGHT				:Straight Flag
+STR_FLAG_ALLY					:Straight Ally Flag
 
-STR_GALIZA				:Galician Flag
-STR_GALIZA_ESTRELEIRA	:Galician Flag (Estreleira)
-STR_PORTUGAL			:Portugal Flag
-STR_ASTURIAS			:Asturias Flag
-STR_SPAIN				:Spain Flag
-STR_SPAIN_REP			:Spanish Republic Flag
-STR_CASTELA				:Castille & Leon Flag
-STR_EUROPE				:European Union Flag
+STR_FLAG_GALIZA					:Galician Flag
+STR_FLAG_GALIZA_ESTRELEIRA		:Galician Flag (Estreleira)
+STR_FLAG_PORTUGAL				:Portugal Flag
+STR_FLAG_ASTURIAS				:Asturias Flag
+STR_FLAG_SPAIN					:Spain Flag
+STR_FLAG_SPAIN_REP				:Spanish Republic Flag
+STR_FLAG_CASTELA				:Castille & Leon Flag
+STR_FLAG_EUROPE					:European Union Flag
+
+STR_LH_CLASSNAME				:Galician Lighthouses
+STR_LH_HERCULES					:Tower of Hercules
+STR_LH_HERCULES_DESC			:The Tower of Hercules is the oldest extant lighthouse known. It has an ancient Roman origin on a peninsula about 2.4 km from the centre of A Coruña, Galicia, in north-western Spain. Until the 20th century, it was known as the Farum Brigantium.
