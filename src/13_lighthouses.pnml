@@ -1,0 +1,33 @@
+
+
+spriteset(spriteset_lh_hercules, 	"src/gfx/lighthouses/hercules.png") 	{ tmpl_lighthouse() }
+spritelayout layout_lh_hercules(state) { 	ground { sprite: GROUNDSPRITE_NORMAL; }	building { sprite: spriteset_lh_hercules(state);zextent: 77; }}
+
+
+item (FEAT_OBJECTS, lh_hercules) {
+    property {
+        class:                  "GLLH"; // Galician Lighthouses
+        classname:              string(STR_LH_CLASSNAME);
+        name:                   string(STR_LH_HERCULES);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  16;
+        remove_cost_multiplier: 16;
+        introduction_date:      date(150,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+		object_flags:			bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,120];
+		animation_speed:		2;
+		animation_triggers:		1;
+        height:                 9;
+        num_views:              1;
+    }
+    graphics {
+		
+	    default:          	layout_lh_hercules(animation_frame<3||(animation_frame>=25&&animation_frame<28)||(animation_frame>=50&&animation_frame<53)?1:0);
+        additional_text:    string(STR_LH_HERCULES_DESC);
+		purchase:			layout_lh_hercules(2);
+		anim_control:		return CB_RESULT_NEXT_FRAME;
+		anim_next_frame:	return CB_RESULT_NEXT_FRAME;
+	}
+}
