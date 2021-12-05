@@ -69,8 +69,9 @@ If you want to add any missing feature or report a bug, you [can request ir or r
 ## Authors
 
 - Pablo Villaverde Castro - [@clankirfed](https://twitter.com/clankirfed)
-- OpenGFX - https://github.com/OpenTTD/OpenGFX
+- OpenGFX(Foundations, RoadTunnels, Trees) - https://github.com/OpenTTD/OpenGFX
 - EmperorJake ([LGBT Flags](https://github.com/EmperorJake/LGBTflags))
+- SAC ([INFRA "Stolen Trees"](http://www.simuscape.net/simutalk/viewtopic.php?p=1597#p1597))
 
 
 <!-- ACKNOWLEDGEMENTS -->

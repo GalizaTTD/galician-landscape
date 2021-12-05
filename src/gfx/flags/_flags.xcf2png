@@ -1,0 +1,25 @@
+src/gfx/flags/LGBT_rainbow.gimp.png          src/xcf/flags.xcf     LGBT_rainbow
+src/gfx/flags/LGBT_bisexual.gimp.png          src/xcf/flags.xcf     LGBT_bisexual
+src/gfx/flags/LGBT_aromantic.gimp.png          src/xcf/flags.xcf     LGBT_aromantic
+src/gfx/flags/LGBT_gay.gimp.png          src/xcf/flags.xcf     LGBT_gay
+src/gfx/flags/LGBT_lesbian.gimp.png          src/xcf/flags.xcf     LGBT_lesbian
+src/gfx/flags/LGBT_agender.gimp.png          src/xcf/flags.xcf     LGBT_agender
+src/gfx/flags/LGBT_trans.gimp.png          src/xcf/flags.xcf     LGBT_trans
+src/gfx/flags/LGBT_nonbinary.gimp.png          src/xcf/flags.xcf     LGBT_nonbinary
+src/gfx/flags/LGBT_asexual.gimp.png          src/xcf/flags.xcf     LGBT_asexual
+src/gfx/flags/LGBT_queer.gimp.png          src/xcf/flags.xcf     LGBT_queer
+src/gfx/flags/LGBT_intersexual.gimp.png          src/xcf/flags.xcf     LGBT_intersexual
+src/gfx/flags/LGBT_polysexual.gimp.png          src/xcf/flags.xcf     LGBT_polysexual
+src/gfx/flags/LGBT_pansexual.gimp.png          src/xcf/flags.xcf     LGBT_pansexual
+src/gfx/flags/LGBT_straight.gimp.png          src/xcf/flags.xcf     LGBT_straight
+src/gfx/flags/LGBT_ally.gimp.png          src/xcf/flags.xcf     LGBT_ally
+src/gfx/flags/LGBT_fluid.gimp.png          src/xcf/flags.xcf     LGBT_fluid
+
+src/gfx/flags/PLACE_SPAIN.gimp.png          src/xcf/flags.xcf     PLACE_SPAIN
+src/gfx/flags/PLACE_SPAINREP.gimp.png          src/xcf/flags.xcf     PLACE_SPAINREP
+src/gfx/flags/PLACE_CASTILLE.gimp.png          src/xcf/flags.xcf     PLACE_CASTILLE
+src/gfx/flags/PLACE_PORTUGAL.gimp.png          src/xcf/flags.xcf     PLACE_PORTUGAL
+src/gfx/flags/PLACE_ASTURIAS.gimp.png          src/xcf/flags.xcf     PLACE_ASTURIAS
+src/gfx/flags/PLACE_EUROPE.gimp.png          src/xcf/flags.xcf     PLACE_EUROPE
+src/gfx/flags/PLACE_GALIZAINDEP.gimp.png          src/xcf/flags.xcf     PLACE_GALIZAINDEP
+src/gfx/flags/PLACE_GALIZA.gimp.png          src/xcf/flags.xcf     PLACE_GALIZA

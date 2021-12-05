@@ -1,9 +1,9 @@
 
 
-spriteset(spriteset_rainbow, 	"src/gfx/flags/rainbow.png") 	{ tmp_flag() }
-spriteset(spriteset_gay, 		"src/gfx/flags/gay.png") 		{ tmp_flag() }
-spriteset(spriteset_lesbian, 	"src/gfx/flags/lesbian.png") 	{ tmp_flag() }
-spriteset(spriteset_bi, 		"src/gfx/flags/bi.png") 		{ tmp_flag() }
+spriteset(spriteset_rainbow, 	"src/gfx/flags/LGBT_rainbow.gimp.png") 	{ tmp_flag() }
+spriteset(spriteset_gay, 		"src/gfx/flags/LGBT_gay.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_lesbian, 	"src/gfx/flags/LGBT_lesbian.gimp.png") 	{ tmp_flag() }
+spriteset(spriteset_bi, 		"src/gfx/flags/LGBT_bisexual.gimp.png") { tmp_flag() }
 
 
 spritelayout layout_rainbow { 	ground { sprite: spriteset_rainbow; }	building { sprite: spriteset_rainbow; }}
@@ -48,10 +48,10 @@ item (FEAT_OBJECTS, flags1) {
 }
 
 
-spriteset(spriteset_straight, 	"src/gfx/flags/straight.png") 	{ tmp_flag() }
-spriteset(spriteset_ally, 		"src/gfx/flags/ally.png") 		{ tmp_flag() }
-spriteset(spriteset_trans, 		"src/gfx/flags/trans.png") 		{ tmp_flag() }
-spriteset(spriteset_ace, 		"src/gfx/flags/ace.png") 		{ tmp_flag() }
+spriteset(spriteset_straight, 	"src/gfx/flags/LGBT_straight.gimp.png") 	{ tmp_flag() }
+spriteset(spriteset_ally, 		"src/gfx/flags/LGBT_ally.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_trans, 		"src/gfx/flags/LGBT_trans.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_ace, 		"src/gfx/flags/LGBT_asexual.gimp.png") 		{ tmp_flag() }
 
 
 spritelayout layout_straight 	{ 	ground { sprite: spriteset_straight; }	building { sprite: spriteset_straight; }}
@@ -97,10 +97,10 @@ item (FEAT_OBJECTS, flags2) {
 
 
 
-spriteset(spriteset_aro, 		"src/gfx/flags/aro.png") 		{ tmp_flag() }
-spriteset(spriteset_agender, 	"src/gfx/flags/agender.png") 	{ tmp_flag() }
-spriteset(spriteset_pan, 		"src/gfx/flags/pan.png") 		{ tmp_flag() }
-spriteset(spriteset_poly, 		"src/gfx/flags/poly.png") 		{ tmp_flag() }
+spriteset(spriteset_aro, 		"src/gfx/flags/LGBT_aromantic.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_agender, 	"src/gfx/flags/LGBT_agender.gimp.png") 			{ tmp_flag() }
+spriteset(spriteset_pan, 		"src/gfx/flags/LGBT_pansexual.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_poly, 		"src/gfx/flags/LGBT_polysexual.gimp.png") 		{ tmp_flag() }
 
 
 spritelayout layout_aro 	{ 	ground { sprite: spriteset_aro; }		building { sprite: spriteset_aro; }}
@@ -145,10 +145,10 @@ item (FEAT_OBJECTS, flags3) {
 }
 
 
-spriteset(spriteset_intersex, 		"src/gfx/flags/intersex.png") 		{ tmp_flag() }
-spriteset(spriteset_genderfluid, 	"src/gfx/flags/genderfluid.png") 	{ tmp_flag() }
-spriteset(spriteset_genderqueer, 	"src/gfx/flags/genderqueer.png") 	{ tmp_flag() }
-spriteset(spriteset_enby, 			"src/gfx/flags/enby.png") 			{ tmp_flag() }
+spriteset(spriteset_intersex, 		"src/gfx/flags/LGBT_intersexual.gimp.png") 	{ tmp_flag() }
+spriteset(spriteset_genderfluid, 	"src/gfx/flags/LGBT_fluid.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_genderqueer, 	"src/gfx/flags/LGBT_queer.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_enby, 			"src/gfx/flags/LGBT_nonbinary.gimp.png") 	{ tmp_flag() }
 
 
 spritelayout layout_intersex 	{ 	ground { sprite: spriteset_intersex; }		building { sprite: spriteset_intersex; }}
@@ -195,10 +195,10 @@ item (FEAT_OBJECTS, flags4) {
 // Bandeiras Galicia e outras
 
 
-spriteset(spriteset_galiza, 			"src/gfx/flags/galiza.png") 			{ tmp_flag() }
-spriteset(spriteset_galiza_estreleira, 	"src/gfx/flags/galiza_estreleira.png") 	{ tmp_flag() }
-spriteset(spriteset_portugal, 			"src/gfx/flags/portugal.png") 			{ tmp_flag() }
-spriteset(spriteset_asturias, 			"src/gfx/flags/asturias.png") 			{ tmp_flag() }
+spriteset(spriteset_galiza, 			"src/gfx/flags/PLACE_GALIZA.gimp.png") 			{ tmp_flag() }
+spriteset(spriteset_galiza_estreleira, 	"src/gfx/flags/PLACE_GALIZAINDEP.gimp.png") 	{ tmp_flag() }
+spriteset(spriteset_portugal, 			"src/gfx/flags/PLACE_PORTUGAL.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_asturias, 			"src/gfx/flags/PLACE_ASTURIAS.gimp.png") 		{ tmp_flag() }
 
 
 spritelayout layout_galiza 				{ 	ground { sprite: spriteset_galiza; }			building { sprite: spriteset_galiza; }}
@@ -242,10 +242,10 @@ item (FEAT_OBJECTS, flags5) {
     }
 }
 
-spriteset(spriteset_spain, 			"src/gfx/flags/spain.png") 			{ tmp_flag() }
-spriteset(spriteset_spain_rep, 		"src/gfx/flags/spain_rep.png") 		{ tmp_flag() }
-spriteset(spriteset_castela, 		"src/gfx/flags/castela.png") 		{ tmp_flag() }
-spriteset(spriteset_europe, 		"src/gfx/flags/europe.png") 		{ tmp_flag() }
+spriteset(spriteset_spain, 			"src/gfx/flags/PLACE_SPAIN.gimp.png") 			{ tmp_flag() }
+spriteset(spriteset_spain_rep, 		"src/gfx/flags/PLACE_SPAINREP.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_castela, 		"src/gfx/flags/PLACE_CASTILLE.gimp.png") 		{ tmp_flag() }
+spriteset(spriteset_europe, 		"src/gfx/flags/PLACE_EUROPE.gimp.png") 			{ tmp_flag() }
 
 
 spritelayout layout_spain 			{ 	ground { sprite: spriteset_spain; }			building { sprite: spriteset_spain; }}
