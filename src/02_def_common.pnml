@@ -13,3 +13,6 @@
 
 #define TUNNEL_OPENGFX	1
 #define TUNNEL_CLASSIC	2
+
+#define TREES_VARIETY	1
+#define TREES_CONIFER	2

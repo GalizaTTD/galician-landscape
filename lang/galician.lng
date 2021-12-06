@@ -4,11 +4,10 @@
 
 # GRF name and description
 STR_GRF_NAME        :SOGAMA - Set de Obxectos Galegos do Medio Ambiente {VERSION}
-STR_GRF_DESCRIPTION :{TITLE} - Permite escoller o estilo da paisaxe que máis che guste.{}{COPYRIGHT}2021 OpenGFX (graphics)EmperorJake(LGBT Flags), pvillaverde (NML)
+STR_GRF_DESCRIPTION :{TITLE} - Permite escoller o estilo da paisaxe que máis che guste.{}{COPYRIGHT}2021 OpenGFX, SAC (graphics)EmperorJake(LGBT Flags), pvillaverde (NML)
 
 STR_PARAM_FOUNDATIONS_NAME              	:Estilo dos cimentos
 STR_PARAM_FOUNDATIONS_DESC              	:Selecciona o estilo dos cimentos do terreo
-
 STR_PARAM_FOUNDATIONS_DISABLED				:Deshabilitado (Por defecto)
 STR_PARAM_FOUNDATIONS_GFX_TEMPERATE			:OpenGFX+ {LTBLUE}Temperado
 STR_PARAM_FOUNDATIONS_GFX_ARCTIC			:OpenGFX+ {LTBLUE}Ártico
@@ -17,10 +16,15 @@ STR_PARAM_FOUNDATIONS_GFX_TOYLAND			:OpenGFX+ {LTBLUE}Terra de Xoguetes
 
 STR_PARAM_TUNNELS_NAME              		:Estilo dos tuneis
 STR_PARAM_TUNNELS_DESC             			:Selecciona o estilo dos túneis de estrada
-
 STR_PARAM_TUNNELS_DISABLED					:Deshabilitado (Por defecto)
 STR_PARAM_TUNNELS_OPENGFX					:OpenGFX
 STR_PARAM_TUNNELS_CLASSIC					:Clásicos
+
+STR_PARAM_TREES_NAME             		 	:Árbores (Stolen Trees de SAC)
+STR_PARAM_TREES_DESC              			:Escolle que tipo de árbores se usarán
+STR_PARAM_TREES_DISABLED					:Deshabilitado 
+STR_PARAM_TREES_VARIETY						:Variedade (Por defecto, árbores de estilo temperado en climas temperado/subártico)
+STR_PARAM_TREES_CONIFER						:Coníferas (Variedade en temperado, coníferas en subártico)
 
 STR_FLAG_CLASSNAME				:Bandeiras
 

@@ -43,4 +43,19 @@ grf {
 			};
         }
 	}
+    param {
+        param_trees {
+            type:   int;
+            name:   string(STR_PARAM_TREES_NAME);
+            desc:   string(STR_PARAM_TREES_DESC);
+            min_value:  0;
+            max_value:  2;
+            def_value:  1;
+            names:  {
+						0: string(STR_PARAM_TREES_DISABLED);
+						1: string(STR_PARAM_TREES_VARIETY);
+						2: string(STR_PARAM_TREES_CONIFER);
+			};
+        }
+	}
 }
