@@ -9,6 +9,7 @@ custom_tags.txt
 .nmlcache
 dist
 
+*.gimp.png
 *.scm
 *.dep
 *.nml

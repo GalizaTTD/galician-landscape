@@ -1,5 +1,7 @@
 
 if (param_trees == TREES_VARIETY || param_trees == TREES_CONIFER) {
+	// Vineyard Trees
+	replace vineyards(1856, "src/gfx/trees/VINEYARD.gimp.png") { tmpl_tree_wide() } // Vineyards
 	// Random not available to buy Trees
 	replace var_spr1695(1695, "src/gfx/trees/ST_ALPINE_1.gimp.png") { tmpl_tree_wide() }
 	replace var_spr1597(1597, "src/gfx/trees/ST_PINE_1.gimp.png") { tmpl_tree_wide() }
@@ -10,15 +12,15 @@ if (param_trees == TREES_VARIETY || param_trees == TREES_CONIFER) {
 	replace var_spr1681(1681, "src/gfx/trees/ST_DARK_4.gimp.png") { tmpl_tree_wide() }
 	//1576-1764 temperate trees
 	// Temperate First Row
-	replace spr1618(1618, "src/gfx/trees/ST_GREEN_1.gimp.png") { tmpl_tree_wide() }
-	replace spr1632(1632, "src/gfx/trees/ST_GREEN_2.gimp.png") { tmpl_tree_wide() }
+	replace spr1618(1618, "src/gfx/trees/ST_BROWN_1.gimp.png") { tmpl_tree_wide() }
+	replace spr1632(1632, "src/gfx/trees/ST_BROWN_2.gimp.png") { tmpl_tree_wide() } // This one applies to fruit plantations
 	replace spr1653(1653, "src/gfx/trees/ST_DARK_1.gimp.png") { tmpl_tree_wide() }
-	replace spr1576(1576, "src/gfx/trees/ST_GREEN_4.gimp.png") { tmpl_tree_wide() }
+	replace spr1576(1576, "src/gfx/trees/ST_BROWN_4.gimp.png") { tmpl_tree_wide() }
 	// Temperate Second Row
-	replace spr1604(1604, "src/gfx/trees/ST_BROWN_1.gimp.png") { tmpl_tree_wide() }
-	replace spr1590(1590, "src/gfx/trees/ST_BROWN_2.gimp.png") { tmpl_tree_wide() }
-	replace spr1611(1611, "src/gfx/trees/ST_BROWN_3.gimp.png") { tmpl_tree_wide() }
-	replace spr1583(1583, "src/gfx/trees/ST_BROWN_4.gimp.png") { tmpl_tree_wide() }
+	replace spr1604(1604, "src/gfx/trees/ST_GREEN_1.gimp.png") { tmpl_tree_wide() }
+	replace spr1590(1590, "src/gfx/trees/ST_GREEN_2.gimp.png") { tmpl_tree_wide() }
+	replace spr1611(1611, "src/gfx/trees/ST_DARK_1.gimp.png") { tmpl_tree_wide() }
+	replace spr1583(1583, "src/gfx/trees/ST_GREEN_4.gimp.png") { tmpl_tree_wide() }
 	// Temperate Third Row
 	replace spr1660(1660, "src/gfx/trees/ST_ALPINE_1.gimp.png") { tmpl_tree_wide() }
 	replace spr1674(1674, "src/gfx/trees/ST_ALPINE_2.gimp.png") { tmpl_tree_wide() }
@@ -27,26 +29,26 @@ if (param_trees == TREES_VARIETY || param_trees == TREES_CONIFER) {
 	if(param_trees == TREES_VARIETY) {
 		//Arctic trees: the following trees have snowy equivalents:
 		//Arctic First Row
-		replace var_spr1709(1709, "src/gfx/trees/ST_GREEN_1.gimp.png") { tmpl_tree_wide() }      // 1709 (snowy: 1765)
+		replace var_spr1709(1709, "src/gfx/trees/ST_PINE_3.gimp.png") { tmpl_tree_wide() }      // 1709 (snowy: 1765) => This one applies to FORESTS
 		replace var_spr1744(1744, "src/gfx/trees/ST_GREEN_2.gimp.png") { tmpl_tree_wide() }      // 1744 (snowy: 1800)
 		replace var_spr1751(1751, "src/gfx/trees/ST_GREEN_4.gimp.png") { tmpl_tree_wide() }      // 1751 (snowy: 1807)
-		replace var_spr1730(1730, "src/gfx/trees/ST_ALPINE_3.gimp.png") { tmpl_tree_wide() }      // 1730 (snowy: 1786)
+		replace var_spr1730(1730, "src/gfx/trees/ST_GREEN_1.gimp.png") { tmpl_tree_wide() }      // 1730 (snowy: 1786)
 		//Arctic Second Row
-		replace var_spr1737(1737, "src/gfx/trees/ST_BROWN_1.gimp.png") { tmpl_tree_wide() }      // 1737 (snowy: 1793)
+		replace var_spr1737(1737, "src/gfx/trees/ST_ALPINE_3.gimp.png") { tmpl_tree_wide() }      // 1737 (snowy: 1793)
 		replace var_spr1716(1716, "src/gfx/trees/ST_BROWN_2.gimp.png") { tmpl_tree_wide() }         // 1716 (snowy: 1772)
 		replace var_spr1723(1723, "src/gfx/trees/ST_BROWN_3.gimp.png") { tmpl_tree_wide() }         // 1723 (snowy: 1779)
-		replace var_spr1758(1758, "src/gfx/trees/ST_PINE_3.gimp.png") { tmpl_tree_wide() }         // 1758 (snowy: 1814)
+		replace var_spr1758(1758, "src/gfx/trees/ST_BROWN_1.gimp.png") { tmpl_tree_wide() }         // 1758 (snowy: 1814)
 		// snowy trees
 		//Arctic First Row
-		replace var_spr1765(1765, "src/gfx/trees/ST_GREEN_1_SNOW.gimp.png") { tmpl_tree_wide() } // 1765 snowy (equiv of 1709)
+		replace var_spr1765(1765, "src/gfx/trees/ST_PINE_3_SNOW.gimp.png") { tmpl_tree_wide() } // 1765 snowy (equiv of 1709)
 		replace var_spr1800(1800, "src/gfx/trees/ST_GREEN_2_SNOW.gimp.png") { tmpl_tree_wide() } // 1800 snowy (equiv. of 1744)
 		replace var_spr1807(1807, "src/gfx/trees/ST_GREEN_4_SNOW.gimp.png") { tmpl_tree_wide() } // 1807 snowy (equiv. of 1751)
-		replace var_spr1786(1786, "src/gfx/trees/ST_ALPINE_3_SNOW.gimp.png") { tmpl_tree_wide() } // 1786 snowy (equiv. of 1730)
+		replace var_spr1786(1786, "src/gfx/trees/ST_GREEN_1_SNOW.gimp.png") { tmpl_tree_wide() } // 1786 snowy (equiv. of 1730)
 		//Arctic Second Row
-		replace var_spr1793(1793, "src/gfx/trees/ST_BROWN_1_SNOW.gimp.png") { tmpl_tree_wide() } // 1793 snowy (equiv. of 1737)
+		replace var_spr1793(1793, "src/gfx/trees/ST_ALPINE_3_SNOW.gimp.png") { tmpl_tree_wide() } // 1793 snowy (equiv. of 1737)
 		replace var_spr1772(1772, "src/gfx/trees/ST_BROWN_2_SNOW.gimp.png") { tmpl_tree_wide() }    // 1772 snowy (equiv. of 1716)
 		replace var_spr1779(1779, "src/gfx/trees/ST_BROWN_3_SNOW.gimp.png") { tmpl_tree_wide() }    // 1779 snowy (equiv. of 1723)
-		replace var_spr1814(1814, "src/gfx/trees/ST_PINE_3_SNOW.gimp.png") { tmpl_tree_wide() }    // 1814 snowy (equiv. of 1758)
+		replace var_spr1814(1814, "src/gfx/trees/ST_BROWN_1_SNOW.gimp.png") { tmpl_tree_wide() }    // 1814 snowy (equiv. of 1758)
 		
 	}
 	if(param_trees == TREES_CONIFER) {

@@ -47,3 +47,5 @@ src/gfx/trees/ST_GREEN_1_SNOW.gimp.png          src/xcf/trees.xcf     Background
 src/gfx/trees/ST_GREEN_2_SNOW.gimp.png          src/xcf/trees.xcf     Background ST_GREEN_2_SNOW
 src/gfx/trees/ST_GREEN_3_SNOW.gimp.png          src/xcf/trees.xcf     Background ST_GREEN_3_SNOW
 src/gfx/trees/ST_GREEN_4_SNOW.gimp.png          src/xcf/trees.xcf     Background ST_GREEN_4_SNOW
+
+src/gfx/trees/VINEYARD.gimp.png          src/xcf/trees.xcf     Background VINEYARD
